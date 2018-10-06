@@ -1,0 +1,49 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewData["Title"] | Jacob Andersson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>    
+<body>
+
+    
+
+<div class="container">
+        @RenderBody()
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <p class="text-right col-sm-12">
+                        <a class="footer-sm-links" href="https://www.facebook.com/" target="_blank">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
+
+                        <a class="footer-sm-links" href="https://www.linkedin.com/in/jacob-andersson-4a415a152/" target="_blank">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+                        </a>
+
+                        <a class="footer-sm-links" href="https://github.com/dittan" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

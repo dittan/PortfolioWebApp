@@ -1,0 +1,11 @@
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\bin\Debug\netcoreapp2.0\PortfolioWebApp.deps.json
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\bin\Debug\netcoreapp2.0\PortfolioWebApp.runtimeconfig.json
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\bin\Debug\netcoreapp2.0\PortfolioWebApp.runtimeconfig.dev.json
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\bin\Debug\netcoreapp2.0\PortfolioWebApp.dll
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\obj\Debug\netcoreapp2.0\PortfolioWebApp.csprojAssemblyReference.cache
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\obj\Debug\netcoreapp2.0\PortfolioWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\obj\Debug\netcoreapp2.0\PortfolioWebApp.AssemblyInfoInputs.cache
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\obj\Debug\netcoreapp2.0\PortfolioWebApp.AssemblyInfo.cs
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\bin\Debug\netcoreapp2.0\PortfolioWebApp.pdb
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\obj\Debug\netcoreapp2.0\PortfolioWebApp.dll
+C:\Users\Jacob\source\repos\PortfolioWebApp\PortfolioWebApp\obj\Debug\netcoreapp2.0\PortfolioWebApp.pdb

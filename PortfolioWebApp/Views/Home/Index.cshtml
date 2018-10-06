@@ -1,0 +1,256 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jacob Andersson | Studying to Fullstack Developer</title>
+    <link rel="stylesheet" href="~/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/css/main.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"
+            type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+        <a class="social-links" href="#home-section"><i class="fa fa-home" aria-hidden="true"></i></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="social-links" href="https://www.facebook.com/" target="_blank">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="social-links" href="https://www.linkedin.com/in/jacob-andersson-4a415a152/" target="_blank">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="social-links" href="https://github.com/dittan" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </nav> <!--Nav ends-->
+
+    <section id="home-section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-3 my-auto mx-auto">
+                    <img class="rounded-circle my-auto mx-auto" id="nav-photo" src="assets/img/jacke.jpg" />
+                </div>
+                <div class="col-sm-10 offset-sm-1">
+                    <h1 class="home-text">Jacob <span class="off-color-text">Andersson</span></h1>
+                    <hr class="home-hr" />
+                    <h2 class="home-education"><span class="off-color-text">Fullstack</span> Developer.NET</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <ul class="intro-links">
+                        <li>
+                            <a href="#about-section" class="nav-link">
+                                <i class="fa fa-user fa-3x"></i>
+                            </a>
+                            <h4><b>About Me</b></h4>
+                        </li>
+                        <li>
+                            <a href="#portfolio-section" class="nav-link">
+                                <i class="fa fa-code fa-3x"></i>
+                            </a>
+                            <h4><b>Portfolio</b></h4>
+                        </li>
+                        <li>
+                            <a href="#contact-section" class="nav-link">
+                                <i class="fa fa-pencil fa-3x"></i>
+                            </a>
+                            <h4><b>Contact</b></h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div> <!--container div ends-->
+
+    </section> <!--Home section ends-->
+
+    <section id="about-section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="heading">
+                        <h3>
+                            <b>About me</b>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <h4 class="about-technologies-header">Technologies</h4>
+
+                    <ul class="about-technologies">
+                        <li class="inside-technologies"><i class="fa fa-plus"></i> <b>C#</b></li>
+                        <li class="inside-technologies"><i class="fa fa-plus"></i> <b>JavaScript</b></li>
+                        <li class="inside-technologies"><i class="fa fa-plus"></i> <b>.NET (.NET Core)</b></li>
+                        <li class="inside-technologies"><i class="fa fa-plus"></i> <b>T-SQL</b></li>
+                        <li class="inside-technologies"><i class="fa fa-plus"></i> <b>SQL Server</b></li>
+                        <li class="inside-technologies"><i class="fa fa-plus"></i> <b>HTML</b></li>
+                        <li class="inside-technologies"><i class="fa fa-plus"></i> <b>CSS</b></li>
+                    </ul>
+
+                    <p class="about-text">Name : Jacob Andersson.</p>
+                    <p class="about-text">Born : 1991</p>
+                    <p class="about-text">
+                        Birthplace :
+                        <a href="https://goo.gl/maps/UhxQhTj5PtL2">Varberg, Sweden</a>
+                        <img src="assets/img/Swedishflag.jpg" />
+                    </p>
+                    <p class="about-text">Studying : Fullstack Developer.NET in Gothenburg, Sweden.</p>
+                    <p class="about-text">Hobbies : Watch sports, play videogames, watch movies, programming, beer.</p>
+                </div>
+            </div>
+
+        </div> <!--Container div ends-->
+
+    </section> <!--about section ends-->
+
+    <section id="portfolio-section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="heading">
+                        <h3>
+                            <b>Portfolio</b>
+                        </h3>
+                    </div>
+                </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/Sagan-gaing.jpg" style="width: 100%" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Sagan-Gaming</h5>
+                            <p class="card-text">This is a hobby project i did for a CS:GO team in my hometown Varberg.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form action="https://github.com/dittan/Website">
+                                <button class="btn btn-primary">Go to Github</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/backoffice.jpg" style="width: 100%" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Backoffice</h5>
+                            <p class="card-text">This is a school project we did, to simulate a e-commerce site, with a backoffice and a client site, using a REST Api</p>
+                        </div>
+                        <div class="card-footer">
+                            <form action="https://github.com/dittan/ticketSystem-swe-us-mafia/tree/master/src/BackofficeWeb">
+                                <button type="submit" class="btn btn-primary">Go to Github</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/ticketshop.jpg" style="width: 100%" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Ticketshop</h5>
+                            <p class="card-text">This is a school project we did, to simulate a e-commerce site, with a backoffice and a client site, using a REST Api</p>
+                        </div>
+                        <div class="card-footer">
+                            <form action="https://github.com/dittan/ticketSystem-swe-us-mafia/tree/master/src/TicketShopWeb">
+                                <button class="btn btn-primary">Go to Github</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/Portfolio.jpg" style="width: 100%" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Page</h5>
+                            <p class="card-text">Hobby project to learn more about HTML & CSS and some JavaScript, and to launch my first website</p>
+                        </div>
+                        <div class="card-footer">
+                            <form action="https://github.com/dittan">
+                                <button class="btn btn-primary">Go to Github</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!--Container div ends-->
+
+    </section> <!--Portfolio section ends-->
+
+    <section id="contact-section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="heading">
+                        <h3>
+                            <b>Contact me</b>
+                        </h3>
+                    </div>
+                </div>
+                <form action="mailto:dittan91@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
+                            <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-comment"></i></span>
+                            <textarea type="text" name="message" class="form-control" placeholder="Write your message" cols="30" rows="4" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Send</button>
+                    </div>
+                </form>
+            </div>
+
+        </div> <!--Container div ends-->
+
+    </section> <!--Contact section ends-->
+
+    <div class="back-to-top" id="back-to-top" title="Back to top"><i class="fa fa-chevron-up"></i></div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
+
