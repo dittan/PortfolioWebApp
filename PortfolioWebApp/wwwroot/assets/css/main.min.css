@@ -62,16 +62,24 @@ nav ul li a {
     text-align: center;
 }
 
+#particles-js {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .home-text {
     text-transform: uppercase;
     color: #E0FBFC;
     text-align: center;
-    animation-name: fade-in;
-    animation-duration: 2s;
-    font-size: 77px;
+    font-size: 62px;
     font-family: 'Chivo', sans-serif;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 .home-education {
@@ -79,16 +87,16 @@ nav ul li a {
     text-align: center;
     margin-bottom: 133px;
     text-transform: uppercase;
-    font-size: 61px;
+    font-size: 58px;
     font-family: 'Chivo', sans-serif;
     font-weight: 900;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
 
 .home-hr {
     margin: 0px auto;
     border-style: none;
-    width: 95%;
+    width: 78%;
     height: 3px;
     color: #7880B5;
     background-color: #7880B5;
@@ -96,7 +104,7 @@ nav ul li a {
 
 #nav-photo {
     border: 2px solid #7880B5;
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
     margin-top: 27px;
 }
@@ -121,8 +129,8 @@ ul.intro-links li a {
     border-style: solid;
     border-width: 3px;
     border-color: #7880B5;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     line-height: 76px;
     padding: 0px;
     box-shadow: 2px 2px 4px #000000;
@@ -138,8 +146,8 @@ ul.intro-links li a:hover {
 
 ul.intro-links li a i {
     color: #E0FBFC;
-    text-shadow: 2px 2px 4px #000000;
-    line-height: inherit;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    font-size: 34px;
 }
 
 ul.intro-links li h4 {
@@ -257,6 +265,8 @@ ul.intro-links li h4 {
 
 .btn-primary:focus {
     outline: none !important;
+    border: none;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 .form-group {
@@ -300,7 +310,9 @@ ul.intro-links li h4 {
     opacity: 1;
 }
 
-
+.form-control {
+    box-shadow: none !important;
+}
 
 @media (max-width: 700px) {
     .home-education {

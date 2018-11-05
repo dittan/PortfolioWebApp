@@ -17,3 +17,7 @@
         })
     })
 }).call(this);
+
+particlesJS.load('particles-js', 'assets/js/particlesjs-config.json', function () {
+    console.log('callback - particlesjs-config.json config loaded');
+});
